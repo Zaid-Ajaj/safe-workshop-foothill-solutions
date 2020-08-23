@@ -7,8 +7,8 @@
   },
   "scripts": {
     "start": "prez --serve --watch --theme moon",
-    "build": "prez --build",
-    "publish": "prez --build && node publish.js"
+    "build": "prez --build --theme moon",
+    "publish": "prez --build --theme moon && node publish.js"
   },
   "author": "",
   "license": "ISC",
